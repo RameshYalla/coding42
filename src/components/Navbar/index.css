@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.nav {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  padding: 20px;
+  height: 10vh;
+  border-bottom: 1px solid black;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 10vw;
+  align-items: center;
+  list-style-type: none;
+}
+li {
+  margin: 8px;
+}
+.light {
+  height: 35px;
+  width: 35px;
+}
+.dark {
+  height: 35px;
+  width: 35px;
+}
+.but {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.navDark {
+  background-color: #333333;
+  color: white;
+}
+.navLight {
+  background-color: white;
+  color: black;
+}
+.h {
+  color: black;
+  font-size: 15px;
+}
+.l {
+  color: white;
+}

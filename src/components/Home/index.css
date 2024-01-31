@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.lights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+}
+.darks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  background-color: black;
+  color: white;
+}
+.home {
+  height: 150px;
+  width: 150px;
+}
